@@ -1,5 +1,6 @@
 import 'package:assignment1_flutter_part2/home_screen.dart';
 import 'package:assignment1_flutter_part2/login_screen.dart';
+import 'package:assignment1_flutter_part2/register_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         'Login':(context)=>LoginScreen(),
-        'Home':(context)=>HomeScreen()
+        'Home':(context)=>HomeScreen(),
+        'Register':(context)=>RegisterScreen(),
       },
       initialRoute: 'Home',
     );
